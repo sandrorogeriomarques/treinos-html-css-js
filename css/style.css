@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /* background: burlywood; */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*loading Spiner CSS*/
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    border-top-color: #09d;
+    border-radius: 50%;
+    animation: spin 1s linear infinite; 
+}
